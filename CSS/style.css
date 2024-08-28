@@ -156,7 +156,7 @@ img {
 /* Hero*/
 
 .hero {
-    background: #000 url(/images/header-background.jpg) 
+    background: #000 url(images/header-background.jpg) 
     center center/cover no-repeat;
     padding: 11.5rem 2rem 8rem;
 }
@@ -346,7 +346,7 @@ img {
     }
     
 
-}
+
 
 
 /* Details */
@@ -675,25 +675,9 @@ img {
       margin-top: 4rem;
     }
   
-    /* Download */
-    .download {
-      padding-top: 10rem;
-      text-align: center;
-    }
-  
-    .download__container {
-      flex-direction: column-reverse;
-    }
-  
-    .download__buttons {
-      flex-direction: column;
-    }
-  
-    .download__button {
-      width: 100%;
-      padding: 0.7rem;
-    }
-  
+   
+   
+      
     /* Footer */
     .footer {
       font-size: 1rem;
@@ -726,17 +710,7 @@ img {
       display: none;
     }
   
-    /* Video Modal */
-    .modal__content {
-      margin: 40% auto;
-      padding: 10px;
-      width: 90%;
-    }
-  
-    .modal__content iframe {
-      width: 100%;
-    }
-  
+   
     /* Pricing */
     .pricing__cards {
       flex-direction: column;
