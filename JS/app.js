@@ -4,9 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     toggleButton.addEventListener('click', () => {
+        removeActiveClass();
         mobileMenu.classList.toggle('active');
     });
-});
+
+    function removeActiveClass() {
+        const links = document.querySelectorAll('.navbar__mobile-menu-item');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            })
+        })
+    }
+})
 
 
 window.addEventListener('scroll', ()=> {
